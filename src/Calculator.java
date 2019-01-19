@@ -4,12 +4,17 @@ public class Calculator {
         return num1 + num2;
     }
 
-    public static double substract(double number1, double number2) {
+    public static double substract(double num1, double num2) {
         return num1-num2;
     }
     
     public static double mutiply(double num1,double num2){
     return num1*num2;
+    }
+
+    public static double divide(double num1,double num2){
+        double division=num1/num2;
+        return division;
     }
 }
 
